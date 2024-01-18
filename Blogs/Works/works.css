@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1152px;
+  font-family: "Heebo", sans-serif;
+  margin: auto;
+}
+
+.generic-work-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  margin-top: 41px;
+}
+.generic_descriptions {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  margin-bottom: 50px;
+}
+.work-1-date {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 19px;
+  gap: 26px;
+}
+.work-1year {
+  color: rgba(134, 149, 164, 1);
+}
+
+/* nav bar */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  width: 100%;
+  height: 80px;
+  margin: auto;
+  padding: 0px 60px;
+}
+.nav-bar h3 {
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.nav-blog {
+  color: red;
+}
+.nav-bar img {
+  display: none;
+}
+
+@media (max-width: 375px) {
+  .nav-bar h3 {
+    display: none;
+  }
+  .nav-bar img {
+    display: block;
+  }
+  .nav-bar {
+    height: 50px;
+  }
+}
+/* End nav bar */
+
+/* Featured works */
+.featured-box {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  background-color: white;
+  margin: auto;
+}
+.featured-box > h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  margin-top: 90px;
+}
+.generic-works {
+  display: flex;
+  gap: 18px;
+}
+
+.generic-work-img {
+  display: flex;
+  margin-bottom: 48px;
+  margin-top: 43px;
+}
+
+.generic-work-texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.generic-year {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 60px;
+  color: white;
+  background-color: rgba(20, 40, 80, 1);
+  width: 62px;
+  height: 25px;
+  border-radius: 16px;
+}
+.generic-text {
+  font-size: 20px;
+  line-height: 29px;
+  color: rgba(134, 149, 164, 1);
+}
+hr {
+  border-color: rgba(224, 224, 224, 1);
+  height: 0.5px;
+}
+.landing {
+  display: none;
+}
+@media (max-width: 375px) {
+  .featured-box {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: white;
+    margin: auto;
+  }
+  .featured-box > h1 {
+    display: flex;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+    margin-top: 24px;
+    margin-bottom: 13px;
+  }
+  .generic-work-img {
+    margin: 0px;
+  }
+  .generic-works {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
+  .work-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+  .dashboard {
+    width: 339px;
+    height: 230px;
+  }
+  .work-1-texts {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+  .generic-work-title {
+    margin-top: 17px;
+    font-size: 24px;
+  }
+  .work-1year {
+    font-size: 16px;
+  }
+  .generic_descriptions {
+    margin-bottom: 17px;
+  }
+  .landing1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px;
+  }
+  .landing {
+    display: block;
+  }
+}
+/* End Featured works */
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 83px;
+  padding-top: 51px;
+  padding-bottom: 54px;
+}
+.icons {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 26px;
+}
+.copyright-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(33, 36, 61, 1);
+  text-align: center;
+}
+@media (max-width: 375px) {
+  .footer {
+    height: 182px;
+    margin-top: 0px;
+  }
+}
+/* End of Footer */
